@@ -914,7 +914,7 @@ function SuccessScreen({ points, onBack }) {
             fontSize: '26px', 
             lineHeight: '30px', 
             fontWeight: 500, 
-            color: '#0c000f',
+            color: '#001ede',
             margin: 0,
             fontFamily: 'World360, Inter, sans-serif'
           }}>
