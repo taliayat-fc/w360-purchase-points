@@ -965,10 +965,18 @@ function SuccessScreen({ points, onBack }) {
             fontSize: '16px',
             lineHeight: '24px',
             letterSpacing: '0.2px',
-            color: '#0c000f'
+            color: '#0c000f',
+            gap: '8px'
           }}>
-            <span style={{ fontFamily: 'World360, Inter, sans-serif', fontWeight: 300 }}>Transaction ID</span>
-            <span style={{ fontFamily: 'World360, Inter, sans-serif', fontWeight: 500 }}>0lVAD00000009Pt2AI</span>
+            <span style={{ fontFamily: 'World360, Inter, sans-serif', fontWeight: 300, flexShrink: 0 }}>Transaction ID</span>
+            <span style={{ 
+              fontFamily: 'World360, Inter, sans-serif', 
+              fontWeight: 500,
+              overflow: 'hidden',
+              textOverflow: 'ellipsis',
+              whiteSpace: 'nowrap',
+              textAlign: 'right'
+            }}>0lVAD00000009Pt2AI</span>
           </div>
 
           <div style={{ height: '1px', backgroundColor: '#c8c8c8', width: '100%' }}></div>
